@@ -1,0 +1,7 @@
+[model_settings]
+name = "DeepSeek-R1:32B"
+type = "text-generation"
+api_endpoint = "http://localhost:11435/api/generate"
+
+[access]
+token = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKa7sY1HhXaseM2+IFVfA30+Ndzvp+CSF9MNRwnGUe5o"

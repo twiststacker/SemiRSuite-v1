@@ -1,0 +1,5 @@
+[agent]
+name = "IdeaForge Production"
+
+[model]
+path = "/opt/semirsuite/models/semirsuite_latest"

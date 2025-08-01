@@ -1,0 +1,5 @@
+[agent]
+name = "IdeaForge Dev"
+
+[model]
+path = "models/model_weights/semirsuite_latest"
