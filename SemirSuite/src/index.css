@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at top left, #0f0f0f, #1a1a1a);
+  color: #e0e0e0;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Neon glow button */
+.bg-neon {
+  background-color: #00ffff;
+  color: #000;
+  box-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff;
+  transition: opacity 0.3s ease;
+}
+
+.bg-neon:hover {
+  opacity: 0.8;
+}
+
+/* Glassmorphism panel */
+.bg-glass {
+  background: rgba(255, 255, 255, 0.05); /* semi-transparent */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari & Chrome */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+}
+
+/* Neon text */
+.text-neon {
+  color: #00ffff;
+  text-shadow: 0 0 4px #00ffff, 0 0 8px #00ffff;
+}
+
+/* Input styling */
+input, select {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #e0e0e0;
+  border: 1px solid #444;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #00ffff;
+  border-radius: 4px;
+}

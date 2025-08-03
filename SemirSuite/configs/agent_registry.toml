@@ -1,0 +1,59 @@
+[PromptPort]
+capabilities = ["parse_prompts"]
+status = "active"
+version = "1.0.0"
+author = "Semir"
+runtime = "python3.11"
+dependencies = []
+description = "Parses user prompts into structured tasks"
+tags = ["nlp", "core", "parser"]
+
+[IdeaForge]
+capabilities = ["generate_ideas"]
+status = "active"
+version = "1.1.0"
+author = "Semir"
+runtime = "python3.11"
+dependencies = ["TrendSync"]
+description = "Generates creative ideas based on prompt context"
+tags = ["ideation", "creative", "trend-aware"]
+
+[ClipSlicer]
+capabilities = ["slice_video_clips"]
+status = "active"
+version = "1.0.2"
+author = "Semir"
+runtime = "python3.11"
+dependencies = []
+description = "Slices raw video into modular clips"
+tags = ["video", "editing", "modular"]
+
+[AutoNarrate]
+capabilities = ["add_voiceover", "add_subtitles"]
+status = "active"
+version = "1.0.3"
+author = "Semir"
+runtime = "python3.11"
+dependencies = ["ClipSlicer"]
+description = "Adds voiceover and subtitles to sliced clips"
+tags = ["narration", "accessibility", "video"]
+
+[TrendSync]
+capabilities = ["fetch_trends"]
+status = "active"
+version = "1.0.1"
+author = "Semir"
+runtime = "python3.11"
+dependencies = []
+description = "Fetches real-time trend data"
+tags = ["trends", "data", "sync"]
+
+[TrendAnalyzer]
+capabilities = ["analyze_trends"]
+status = "active"
+version = "1.0.0"
+author = "Semir"
+runtime = "python3.11"
+dependencies = []
+description = "Analyzes trend data for relevance and impact"
+tags = ["analytics", "trends", "insights"]
