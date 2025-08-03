@@ -1,0 +1,26 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code and Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.db
+*.opendb
+*.VC.db
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+
+# Python virtual environments
+venv/
+.env/
